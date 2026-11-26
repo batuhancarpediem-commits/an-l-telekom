@@ -1,0 +1,50 @@
+{
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "crf": 18,
+    "preset": "veryfast",
+    "audio_bitrate": "192k",
+    "crossfade": 0.6,
+    "ken_burns_zoom": 0.08,
+    "output": "output/anil-telekom-tanitim.mp4",
+    "transitions": [
+      "fade",
+      "fade",
+      "smoothleft"
+    ],
+    "office_zoom": 0.14
+  },
+  "theme": {
+    "primary": "#0B3D91",
+    "accent": "#00A8E8",
+    "dark": "#07152E",
+    "light": "#F3F6FB",
+    "text_on_dark": "#FFFFFF",
+    "text_on_light": "#0B1F44"
+  },
+  "tts": {
+    "provider": "auto",
+    "_provider_secenekleri": "auto | elevenlabs | google | edge | mock",
+    "edge_voice": "tr-TR-EmelNeural",
+    "edge_rate": "+8%",
+    "elevenlabs_model": "eleven_multilingual_v2",
+    "elevenlabs_stability": 0.4,
+    "elevenlabs_similarity": 0.8,
+    "elevenlabs_style": 0.35,
+    "google_voice": "tr-TR-Chirp3-HD-Aoede",
+    "google_speaking_rate": 1.05,
+    "google_voice_fallbacks": [
+      "tr-TR-Wavenet-A"
+    ],
+    "elevenlabs_speed": 1.0,
+    "_not": "Sağlayıcı önceliği: ElevenLabs > Google Cloud (Chirp3-HD) > Edge TTS. Yalnızca anahtarı tanımlı olanlar denenir."
+  },
+  "audio": {
+    "target_lufs": -16,
+    "room_reverb": false,
+    "music_file": "music.mp3",
+    "music_volume": 0.16
+  }
+}

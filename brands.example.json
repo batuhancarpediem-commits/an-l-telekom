@@ -1,0 +1,221 @@
+{
+  "_not": "Eski marka/ürün slaytları. Geri getirmek için bu listedeki blokları content.json > brands içine kopyalayın ve logo/ürün görsellerini assets/brands, assets/products altına koyun.",
+  "brands": [
+    {
+      "name": "Dahua",
+      "logo": "brands/dahua.png",
+      "logo_url": "https://www.dahuasecurity.com/logo.png",
+      "hero": null,
+      "intro": "Video odaklı akıllı güvenlik çözümleri",
+      "narration": "İlk markamız Dahua. Video odaklı akıllı güvenlik çözümleri sunan, dünya çapında bir üretici.",
+      "products": [
+        {
+          "name": "Ağ Kameraları",
+          "image": "products/dahua-kamera.png",
+          "image_url": null,
+          "description": "IP kamera çözümleri",
+          "narration": "Dahua'nın ağ kameraları, görüntü izleme sistemlerinin temelini oluşturuyor."
+        },
+        {
+          "name": "Ağ Kayıt Cihazları",
+          "image": "products/dahua-nvr.png",
+          "image_url": null,
+          "description": "NVR kayıt cihazları",
+          "narration": "Kamera görüntülerini de ağ kayıt cihazlarıyla güvenle saklıyoruz."
+        }
+      ]
+    },
+    {
+      "name": "Ajax Systems",
+      "logo": "brands/ajax.png",
+      "logo_url": null,
+      "hero": null,
+      "intro": "Hırsız, yangın ve yaşam güvenliği tek sistemde",
+      "narration": "Sırada Ajax Systems var. İzinsiz giriş, yangın ve yaşam güvenliğini tek bir sistemde birleştiriyor.",
+      "products": [
+        {
+          "name": "Ajax Hub",
+          "image": "products/ajax-hub.jpg",
+          "image_url": "https://ajax.systems/api/cdn-img/?img=%2Fupload%2Fhubs_8ea6ce1d51%402.jpg&1721396333",
+          "description": "Sistemin merkezi kontrol birimi",
+          "narration": "Hub, Ajax sisteminin merkezi. Tüm cihazlar onunla haberleşiyor."
+        },
+        {
+          "name": "Hareket Dedektörleri",
+          "image": "products/ajax-dedektor.jpg",
+          "image_url": "https://ajax.systems/api/cdn-img/?img=%2Fupload%2Fmotion_detectors_bdccf4fbe1%402.jpg&1721396336",
+          "description": "İzinsiz giriş koruması için sensörler",
+          "narration": "Hareket dedektörleri de izinsiz girişleri anında algılıyor."
+        }
+      ]
+    },
+    {
+      "name": "Ruijie Networks",
+      "logo": "brands/ruijie.png",
+      "logo_url": "https://eo-sgp-cos.ruijie.com/site_style/new_navs/fer/upimg/logo.svg",
+      "hero": null,
+      "intro": "Senaryo odaklı ağ ürünleri ve çözümleri",
+      "narration": "Ağ tarafında Ruijie Networks ile çalışıyoruz. Senaryo odaklı ağ ürünleri ve çözümleri geliştiriyorlar.",
+      "products": [
+        {
+          "name": "RG-AP7136-R",
+          "image": "products/ruijie-ap7136.png",
+          "image_url": null,
+          "description": "Wi-Fi 7 kapalı alan erişim noktası",
+          "narration": "RG-AP7136-R, Wi-Fi 7 destekli bir kapalı alan erişim noktası."
+        },
+        {
+          "name": "RG-S6990 Serisi",
+          "image": "products/ruijie-s6990.png",
+          "image_url": null,
+          "description": "Veri merkezi switch'i",
+          "narration": "RG-S6990 serisi ise veri merkezleri için geliştirilmiş switch'ler."
+        }
+      ]
+    },
+    {
+      "name": "Lande",
+      "logo": "brands/lande.png",
+      "logo_url": "https://www.lande.com.tr/uploads/logo.g1ntw.png",
+      "hero": null,
+      "intro": "Yaklaşık 30 yıllık deneyimle rack kabinet üreticisi",
+      "narration": "Şimdi Lande. Yaklaşık otuz yıldır rack kabinet üreten Türk markası.",
+      "products": [
+        {
+          "name": "DYNAframe Serisi",
+          "image": "products/lande-dynaframe.webp",
+          "image_url": "https://www.lande.com.tr/uploads/menu/dynaframe-acik-seri-19228.webp",
+          "description": "Açık tip rack kabinet",
+          "narration": "DYNAframe serisi, açık tip rack kabinet ihtiyaçları için."
+        },
+        {
+          "name": "DYNAmic Serisi",
+          "image": "products/lande-dynamic.webp",
+          "image_url": "https://www.lande.com.tr/uploads/menu/dynamic-serisi-28351.webp",
+          "description": "Dikili tip kabinetler",
+          "narration": "DYNAmic serisi de dikili tip kabinet çözümü sunuyor."
+        }
+      ]
+    },
+    {
+      "name": "Paradox",
+      "logo": "brands/paradox.png",
+      "logo_url": "https://www.paradox.com/web/wp-content/uploads/2025/05/Paradox-Logo-scaled.png",
+      "hero": null,
+      "intro": "Hibrit güvenlik kontrol sistemleri",
+      "narration": "Alarm sistemlerinde Paradox var. M serisi hibrit güvenlik kontrol sistemleriyle çalışıyorlar.",
+      "products": [
+        {
+          "name": "M25 Kontrol Paneli",
+          "image": "products/paradox-m25.png",
+          "image_url": "https://www.paradox.com/web/wp-content/uploads/2025/12/Paradox_M25_Devices-2.png",
+          "description": "Sensör ve modülleri birbirine bağlayan merkez birim",
+          "narration": "M25 kontrol paneli, sensörleri ve modülleri tek merkezde topluyor."
+        },
+        {
+          "name": "M Serisi Güvenlik Sistemi",
+          "image": "products/paradox-m-sistemi.png",
+          "image_url": "https://www.paradox.com/web/wp-content/uploads/2025/07/M-SYSTEM_VERTCAL-OVERVIEW_4B-scaled.png",
+          "description": "Bağlantılı ve ölçeklenebilir güvenlik ekosistemi",
+          "narration": "M serisi, ev ve işletmeler için ölçeklenebilir bir güvenlik ekosistemi."
+        }
+      ]
+    },
+    {
+      "name": "Gigaset",
+      "logo": "brands/gigaset.png",
+      "logo_url": "https://www.gigaset.com/skin/frontend/gigaset/rebrush/images/logo.svg",
+      "hero": null,
+      "intro": "Almanya'da üretilen telefon çözümleri",
+      "narration": "Telefon tarafında Gigaset ile çalışıyoruz. Ev ve işyerleri için Almanya'da üretilen telefonlar.",
+      "products": [
+        {
+          "name": "Gigaset PURE 100",
+          "image": "products/gigaset-pure100.jpg",
+          "image_url": "https://www.gigaset.com/media/catalog/product/cache/39/small_image/300x/9df78eab33525d08d6e5fb8d27136e95/p/u/pure_100_tl_black_idle2.jpg",
+          "description": "Basit ve güvenli kablosuz telefon",
+          "narration": "PURE 100, basit ve güvenli görüşmeler için kablosuz bir telefon."
+        },
+        {
+          "name": "Gigaset E290",
+          "image": "products/gigaset-e290.jpg",
+          "image_url": "https://www.gigaset.com/media/catalog/product/cache/39/small_image/300x/9df78eab33525d08d6e5fb8d27136e95/e/2/e290_black_tl_1_9.jpg",
+          "description": "Büyük tuşlu telefon",
+          "narration": "E290 ise büyük tuşlarıyla kullanımı çok kolay bir model."
+        }
+      ]
+    },
+    {
+      "name": "Karel",
+      "logo": "brands/karel.png",
+      "logo_url": "https://www.karel.com.tr/themes/custom/karel/logo.svg",
+      "hero": null,
+      "intro": "Türkiye'nin iletişim ve teknoloji markası",
+      "narration": "Santral çözümlerimizde Karel var. Yaklaşık kırk yıllık birikime sahip, Türkiye merkezli bir teknoloji şirketi.",
+      "products": [
+        {
+          "name": "Karel Connect Bulut Santral",
+          "image": "products/karel-bulut-santral.png",
+          "image_url": null,
+          "description": "Bulut tabanlı telefon santrali",
+          "narration": "Karel Connect, bulut tabanlı bir santral çözümü."
+        },
+        {
+          "name": "Karel IP DECT Sistem",
+          "image": "products/karel-ip-dect.png",
+          "image_url": null,
+          "description": "Kablosuz IP DECT iletişim sistemi",
+          "narration": "IP DECT sistemiyle de ofis içinde kablosuz iletişim sağlıyoruz."
+        }
+      ]
+    },
+    {
+      "name": "Seagate",
+      "logo": "brands/seagate.png",
+      "logo_url": null,
+      "hero": null,
+      "intro": "Veri depolama çözümleri",
+      "narration": "Görüntüler saklanmalı! O yüzden depolamada Seagate ile çalışıyoruz.",
+      "products": [
+        {
+          "name": "SkyHawk",
+          "image": "products/seagate-skyhawk.png",
+          "image_url": null,
+          "description": "Güvenlik kamerası sistemleri için sabit disk",
+          "narration": "SkyHawk, güvenlik kamerası kayıtları için tasarlanmış bir sabit disk."
+        },
+        {
+          "name": "IronWolf",
+          "image": "products/seagate-ironwolf.png",
+          "image_url": null,
+          "description": "NAS cihazları için sabit disk",
+          "narration": "IronWolf ise NAS cihazları için geliştirilmiş bir disk."
+        }
+      ]
+    },
+    {
+      "name": "Yealink",
+      "logo": "brands/yealink.png",
+      "logo_url": null,
+      "hero": null,
+      "intro": "Video konferans, IP telefon ve kulaklık çözümleri",
+      "narration": "Son olarak Yealink. Video konferans, IP telefon ve toplantı odası ürünleri sunuyorlar.",
+      "products": [
+        {
+          "name": "MeetingBar A40",
+          "image": "products/yealink-meetingbar-a40.jpg",
+          "image_url": null,
+          "description": "Microsoft Teams odaları için video konferans sistemi",
+          "narration": "MeetingBar A40, orta ölçekli toplantı odaları için video konferans sistemi."
+        },
+        {
+          "name": "Kablosuz Kulaklıklar",
+          "image": "products/yealink-kulaklik.png",
+          "image_url": null,
+          "description": "Bluetooth ve DECT kulaklık modelleri",
+          "narration": "Kablosuz kulaklıkları da rahat ve özgür görüşmeler sağlıyor."
+        }
+      ]
+    }
+  ]
+}

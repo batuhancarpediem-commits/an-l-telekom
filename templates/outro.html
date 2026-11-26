@@ -1,0 +1,22 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>{{css}}
+.left { position: absolute; left: 130px; top: 0; bottom: 0; width: 760px; display: flex; flex-direction: column; justify-content: center; }
+.left .logo-pill { width: 640px; height: 240px; margin-bottom: 56px; }
+.left h1 { font-size: 64px; margin-bottom: 18px; }
+.left p { font-size: 34px; opacity: .8; }
+.right { position: absolute; left: 960px; right: 110px; top: 0; bottom: 0; display: flex; flex-direction: column; justify-content: center; gap: 30px; }
+.row { display: flex; align-items: center; gap: 28px; }
+.ico { flex: none; width: 76px; height: 76px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center;
+  font-size: 40px; font-weight: 800; color: #fff; }
+.ico svg { width: 40px; height: 40px; fill: #fff; }
+.val { font-size: 44px; font-weight: 600; line-height: 1.2; }
+.divider { position: absolute; left: 920px; top: 220px; bottom: 220px; width: 3px; background: rgba(255,255,255,.22); border-radius: 2px; }
+</style></head><body><div class="stage on-dark">
+  <div class="left">
+    <div class="logo-pill"><img src="{{footer_logo}}"></div>
+    <div class="bar"></div>
+    <h1>{{company}}</h1>
+    <p class="lead">{{tagline}}</p>
+  </div>
+  <div class="divider"></div>
+  <div class="right">{{raw_rows}}</div>
+</div></body></html>

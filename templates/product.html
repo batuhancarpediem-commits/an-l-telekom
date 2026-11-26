@@ -1,0 +1,15 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>{{css}}
+.brandtag { position: absolute; left: 120px; top: 84px; height: 92px; width: 260px; padding: 12px 24px; border-radius: 18px; }
+.col { position: absolute; left: 120px; top: 0; bottom: 0; width: 820px; display: flex; flex-direction: column; justify-content: center; padding-top: 40px; }
+.col h1 { font-size: 88px; margin-bottom: 30px; }
+.col p { font-size: 40px; opacity: .82; }
+</style></head><body><div class="stage on-light">
+  {{raw_brand_logo}}
+  <div class="col">
+    <div class="kicker">{{brand}}</div>
+    <div class="bar"></div>
+    <h1>{{product}}</h1>
+    <p class="lead">{{description}}</p>
+  </div>
+  <div class="logo-pill footer-logo left"><img src="{{footer_logo}}"></div>
+</div></body></html>

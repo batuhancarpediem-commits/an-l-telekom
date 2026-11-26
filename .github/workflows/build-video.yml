@@ -1,0 +1,76 @@
+name: Videoyu üret
+
+on:
+  workflow_dispatch:          # Actions sekmesinden "Run workflow" ile elle başlatılır
+  push:
+    paths:
+      - "content.json"
+      - "config.json"
+      - "pronunciation.json"
+      - "assets/**"
+      - "templates/**"
+      - "src/**"
+
+permissions:
+  contents: write             # MP4'ü "Release" olarak yayınlayabilmek için
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Sistem paketleri (FFmpeg + fontlar)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          sudo apt-get install -y fonts-inter fonts-noto-core || true
+
+      - name: Python paketleri ve Chromium
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Marka logoları ve ürün görselleri (resmî sitelerden; elle konanlara dokunulmaz)
+        run: |
+          python src/fetch_assets.py
+          cat cache/asset-report.md >> "$GITHUB_STEP_SUMMARY" || true
+        continue-on-error: true
+
+      - name: Arka plan müziği yoksa üret (telifsiz, sentezlenmiş)
+        run: test -f assets/music.mp3 || python src/make_music.py
+
+      - name: Ses önbelleği (aynı metin için tekrar istek/ücret yok)
+        uses: actions/cache@v4
+        with:
+          path: cache/tts
+          key: tts-${{ hashFiles('content.json', 'pronunciation.json', 'config.json') }}
+          restore-keys: tts-
+
+      - name: Videoyu üret
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+        run: make video
+
+      - name: MP4'ü Artifacts olarak sakla
+        uses: actions/upload-artifact@v4
+        with:
+          name: anil-telekom-tanitim
+          path: output/*.mp4
+          if-no-files-found: error
+
+      - name: Release oluştur (doğrudan MP4 indirme bağlantısı)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "video-${{ github.run_number }}" output/anil-telekom-tanitim.mp4 \
+            --title "Tanıtım videosu #${{ github.run_number }}" \
+            --notes "Otomatik üretilen tanıtım videosu (1920x1080, MP4)."

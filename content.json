@@ -1,0 +1,229 @@
+{
+  "_not": "Tüm ekran yazıları ve seslendirme metinleri burada. 'narration' alanları SESTE okunacak metindir. Görseller: brands[].logo ve products[].image dosyaları assets/ altına elle konabilir; yoksa 'make assets' resmî sitelerden (url / page / logo_url / image_url) indirmeyi dener. Bulunamayan ürünün slaytı atlanır, eksik logoda marka adı yazı olarak gösterilir; sahte görsel üretilmez.",
+  "company": {
+    "name": "Anıl Telekomünikasyon",
+    "tagline": "Güvenlik ve Bilişim Sistemleri",
+    "logo": "logo.png"
+  },
+  "intro": {
+    "title": "Hoş geldiniz",
+    "subtitle": "Her Zaman Daha İyiye",
+    "narration": "Selam! Anıl Telekomünikasyon'a hoş geldiniz. Güvenlik ve bilişim işinde, her zaman daha iyiye! Peki hangi markalarla çalışıyoruz? Hadi, birlikte bakalım."
+  },
+  "brands": [
+    {
+      "name": "Dahua",
+      "url": "https://www.dahuasecurity.com/tr",
+      "logo": "brands/dahua.png",
+      "intro": "Akıllı video güvenlik çözümlerinin dünya çapındaki üreticilerinden.",
+      "narration": "İlk durağımız Dahua. Akıllı video güvenlik çözümlerinde dünya çapında bir üretici. Kameradan kayda, hepsini konuşuyorlar.",
+      "products": [
+        {
+          "name": "Ağ Kameraları",
+          "image": "products/dahua-kamera.jpg",
+          "description": "Farklı ihtiyaçlara göre ağ kamera serileri.",
+          "narration": "Ağ kameraları, görüntülü güvenliğin temeli. Her ihtiyaca göre bir seri var.",
+          "page": "https://www.dahuasecurity.com/tr/Products/All-Products/Network-Cameras"
+        },
+        {
+          "name": "Depolama",
+          "image": "products/dahua-depolama.jpg",
+          "description": "Kayıt ve depolama ürünleri.",
+          "narration": "Görüntüler güvende kalsın diye de depolama ürünleri var.",
+          "page": "https://www.dahuasecurity.com/tr/Products/All-Products/Storage"
+        }
+      ]
+    },
+    {
+      "name": "Ajax Systems",
+      "url": "https://ajax.systems/tr/",
+      "logo": "brands/ajax.png",
+      "intro": "Kablosuz, profesyonel alarm ve güvenlik ekosistemi.",
+      "narration": "Sırada Ajax Systems. Kablosuz bir alarm sistemi... ama işin içinde izinsiz giriş koruması da var, yangın ve yaşam güvenliği de, video izleme de.",
+      "products": [
+        {
+          "name": "Hub'lar",
+          "image": "products/ajax-hub.jpg",
+          "description": "Sistemin merkezi: tüm cihazlar hub üzerinden konuşur.",
+          "narration": "Hub, sistemin beyni. Bütün cihazlar onunla haberleşiyor.",
+          "image_url": "https://ajax.systems/api/cdn-img/?img=%2Fupload%2Fhubs_8ea6ce1d51%402.jpg"
+        },
+        {
+          "name": "Hareket Dedektörleri",
+          "image": "products/ajax-hareket.jpg",
+          "description": "İzinsiz girişi anında fark eden dedektörler.",
+          "narration": "Hareket dedektörleri de izinsiz girişi anında fark ediyor.",
+          "image_url": "https://ajax.systems/api/cdn-img/?img=%2Fupload%2Fmotion_detectors_bdccf4fbe1%402.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Ruijie Networks",
+      "url": "https://www.ruijie.com/",
+      "logo": "brands/ruijie.png",
+      "intro": "Kurumsal ağ altyapısı: switch, kablosuz erişim ve ağ yönetimi.",
+      "narration": "Ağ tarafında Ruijie Networks var. Switch'ten kablosuz erişime kadar kurumsal ağ altyapısı kuruyorlar.",
+      "products": [
+        {
+          "name": "Kablosuz Erişim Noktaları",
+          "image": "products/ruijie-ap.jpg",
+          "description": "Kurumsal Wi-Fi ihtiyacı için erişim noktaları.",
+          "narration": "Kablosuz tarafında da güçlü erişim noktaları var. Wi-Fi'ın hep yanınızda olması için."
+        },
+        {
+          "name": "Switch Serileri",
+          "image": "products/ruijie-switch.jpg",
+          "description": "Kurumsal ağlar için yönetilebilir switch'ler.",
+          "narration": "Ağın omurgası da switch'ler. Küçük ofisten büyük kuruma kadar seçenek var."
+        }
+      ]
+    },
+    {
+      "name": "Lande",
+      "url": "https://www.lande.com.tr/tr",
+      "logo": "brands/lande.png",
+      "intro": "Türkiye'de üretilen rack kabinet ve altyapı çözümleri.",
+      "narration": "Şimdi yerli bir marka: Lande. Rack kabinet ve altyapı çözümlerini Türkiye'de üretiyorlar.",
+      "products": [
+        {
+          "name": "DYNAframe",
+          "image": "products/lande-dynaframe.jpg",
+          "description": "Açık tip rack çözümü.",
+          "narration": "DYNAframe, açık tip rack ihtiyacına çözüm.",
+          "image_url": "https://www.lande.com.tr/uploads/menu/dynaframe-acik-seri-19228.webp"
+        },
+        {
+          "name": "DYNAmic",
+          "image": "products/lande-dynamic.jpg",
+          "description": "Dikili tip rack kabinet serisi.",
+          "narration": "DYNAmic ise dikili tip kabinetlerde bir seçenek.",
+          "image_url": "https://www.lande.com.tr/uploads/menu/dynamic-serisi-28351.webp"
+        }
+      ]
+    },
+    {
+      "name": "Paradox",
+      "url": "https://www.paradox.com/web/",
+      "logo": "brands/paradox.png",
+      "intro": "Alarm ve güvenlik kontrol panelleri, sensörler ve modüller.",
+      "narration": "Alarm tarafında Paradox'u da getiriyoruz. Kontrol panelleri, sensörler, modüller... Hepsi birlikte çalışıyor.",
+      "products": [
+        {
+          "name": "Alarm Kontrol Panelleri",
+          "image": "products/paradox-panel.jpg",
+          "description": "Ev ve işyeri için alarm paneli.",
+          "narration": "Kontrol paneli, sistemin merkezi. Sensörler ve modüller bu merkeze bağlanıyor.",
+          "image_url": "https://www.paradox.com/web/wp-content/uploads/2025/12/Paradox_M25_Devices-2.png"
+        },
+        {
+          "name": "Sensörler ve Modüller",
+          "image": "products/paradox-sensor.jpg",
+          "description": "Sisteme eklenen dedektörler ve modüller.",
+          "narration": "Sensörler de sisteme kolayca ekleniyor. Böylece koruma, ihtiyacınız kadar büyüyor.",
+          "image_url": "https://www.paradox.com/web/wp-content/uploads/2025/07/M-SYSTEM_VERTCAL-OVERVIEW_4B-scaled.png"
+        }
+      ]
+    },
+    {
+      "name": "Gigaset",
+      "url": "https://www.gigaset.com/tr_tr/",
+      "logo": "brands/gigaset.png",
+      "intro": "Almanya kökenli telefon ve iletişim çözümleri.",
+      "narration": "İletişim tarafında Gigaset var. Almanya kökenli bir marka. Ev ve ofis telefonları, kurumsal çözümler...",
+      "products": [
+        {
+          "name": "Masaüstü Telefonlar",
+          "image": "products/gigaset-masaustu.jpg",
+          "description": "Ofis ve ev kullanımı için telefonlar.",
+          "narration": "Masaüstü telefonlar, ofis ve ev için sade ve işe yarar.",
+          "image_url": "https://www.gigaset.com/media/catalog/product/cache/39/small_image/300x/9df78eab33525d08d6e5fb8d27136e95/p/u/pure_100_tl_black_idle2.jpg"
+        },
+        {
+          "name": "Kablosuz Telefonlar",
+          "image": "products/gigaset-kablosuz.jpg",
+          "description": "Kablosuz DECT telefonlar.",
+          "narration": "Kablosuz DECT telefonlarla da ofiste rahatça dolaşabiliyorsunuz.",
+          "image_url": "https://www.gigaset.com/media/catalog/product/cache/39/small_image/300x/9df78eab33525d08d6e5fb8d27136e95/e/2/e290_black_tl_1_9.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Karel",
+      "url": "https://www.karel.com.tr/",
+      "logo": "brands/karel.png",
+      "intro": "Türkiye merkezli iletişim ve santral çözümleri.",
+      "narration": "Santral deyince akla gelen markalardan biri: Karel. Türkiye merkezli, uzun yıllardır iletişim çözümleri geliştiriyor.",
+      "products": [
+        {
+          "name": "IP Telefonlar",
+          "image": "products/karel-telefon.jpg",
+          "description": "Ofis iletişimi için IP telefonlar.",
+          "narration": "IP telefonlarla ofis iletişimi çok daha pratik."
+        },
+        {
+          "name": "Santral Çözümleri",
+          "image": "products/karel-santral.jpg",
+          "description": "Telefon santrali ve iletişim çözümleri.",
+          "narration": "Santral çözümleriyle de bütün görüşmeler tek yerden yönetiliyor."
+        }
+      ]
+    },
+    {
+      "name": "Seagate",
+      "url": "https://www.seagate.com/tr/tr/",
+      "logo": "brands/seagate.png",
+      "intro": "Güvenlik kameraları ve NAS için depolama çözümleri.",
+      "narration": "Görüntüler kaydedilecek, değil mi? O yüzden depolamada Seagate'i tercih ediyoruz.",
+      "products": [
+        {
+          "name": "SkyHawk",
+          "image": "products/seagate-skyhawk.jpg",
+          "description": "Güvenlik kayıt sistemleri için sürekli kayda uygun diskler.",
+          "narration": "SkyHawk serisi, güvenlik kameralarının kaydı için tasarlanmış."
+        },
+        {
+          "name": "IronWolf",
+          "image": "products/seagate-ironwolf.jpg",
+          "description": "NAS cihazları için dayanıklı diskler.",
+          "narration": "IronWolf ise NAS cihazları için. Yani verileriniz sağlam ellerde."
+        }
+      ]
+    },
+    {
+      "name": "Yealink",
+      "url": "https://yealink.com.tr/",
+      "logo": "brands/yealink.png",
+      "intro": "IP telefon, video konferans ve toplantı odası çözümleri.",
+      "narration": "Ve Yealink. Toplantılar, görüntülü görüşmeler, IP telefonlar... Uzaktan çalışmanın en akıcı hali.",
+      "products": [
+        {
+          "name": "IP Telefonlar",
+          "image": "products/yealink-telefon.jpg",
+          "description": "Ofis için IP masaüstü telefonlar.",
+          "narration": "IP telefonlarıyla ofisteki görüşmeler net ve kaliteli."
+        },
+        {
+          "name": "Toplantı Odası Çözümleri",
+          "image": "products/yealink-toplanti.jpg",
+          "description": "Video konferans cihazları.",
+          "narration": "Toplantı odası çözümleriyle de herkes aynı masada gibi hissediyor."
+        }
+      ]
+    }
+  ],
+  "office": {
+    "image": "office.jpg",
+    "video": null,
+    "caption": "Anıl Telekom – Perpa, Şişli",
+    "narration": "Markaları gördük. Peki bizi nerede bulursunuz? İşte burası, mağazamız. Şişli'de, Perpa'nın A Blok'undayız. Yolunuz düşerse bir uğrayın, birlikte bakalım."
+  },
+  "contact": {
+    "_not": "Ekranda görünen bilgiler. Seslendirmede okunuşları 'narration' içinde ayrıca yazılıdır; bir bilgiyi değiştirirseniz narration'ı da güncelleyin.",
+    "phone": "0212-292-9090",
+    "address": "Perpa Tic. Mer. A Blok No: 1442-1579 Şişli/İstanbul",
+    "email": "info@aniltelekom.com",
+    "website": "www.aniltelekom.com",
+    "social": null,
+    "narration": "Bize ulaşmak da çok kolay. Telefon numaramız: sıfır, iki yüz on iki, iki yüz doksan iki, doksan, doksan. İnternet sitemiz: anıl telekom nokta com. E-posta için: info, et, anıl telekom nokta com. Adresimiz de Perpa Ticaret Merkezi, A Blok, numara bin dört yüz kırk iki, bin beş yüz yetmiş dokuz. Şişli, İstanbul. Anıl Telekom... her zaman daha iyiye! Görüşmek üzere."
+  }
+}
